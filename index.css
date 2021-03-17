@@ -1,0 +1,54 @@
+#title{
+    text-align: center;
+      font-family: Arial;
+      color: white;
+    
+    }
+    
+    #description{
+      font-weight: normal;
+      font-family: Arial;
+      color: white;
+      font-style: italic
+    }
+    
+    body{
+      text-align: center;
+      background-color: #001a33;
+    }
+    
+    svg {
+      background-color: #001a33;
+      padding-bottom: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px;
+    }
+    
+    #tooltip{
+      position: absolute;
+      background-color: lightblue;
+      border-radius: 5px;
+      padding: 5px;
+      text-align: left;
+    }
+    
+    #legend{
+      height: 50px;
+      width: 100px;
+      position: absolute;
+      z-index: 1
+    }
+    
+    .indicator {
+      font-size: 13px;
+      font-weight: bold;
+      color: white;
+    }
+    
+    #x-axis{
+      color: white;
+    }
+    
+    #y-axis {
+      color: white;
+    }
